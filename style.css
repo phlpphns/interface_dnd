@@ -1,0 +1,29 @@
+/* Styles for the drop zone */
+.drop-zone {
+  width: 300px;
+  height: 200px;
+  border: 2px dashed #ccc;
+  line-height: 200px;
+  text-align: center;
+  font-size: 20px;
+  background-color: #fff;
+}
+
+.drop-zone.drag-over {
+  background-color: #f7f7f7;
+}
+
+/* Styles for the file list */
+#fileList {
+  margin-top: 10px;
+}
+
+#fileList p {
+  margin: 5px 0;
+}
+
+/* Other styles */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
